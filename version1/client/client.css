@@ -1,0 +1,134 @@
+.main {
+    max-width: 28rem;
+    margin: 2rem auto;
+    padding-left: 1rem; 
+    padding-right: 1rem; 
+
+    background-color: #202023; 
+}
+
+h1 {
+    font-size: 1.0rem; 
+    font-family: "Roboto", sans-serif;
+    font-weight: normal; 
+    color: #f1f5f9; 
+    margin: 0rem; 
+}
+
+h2 {
+    font-size: 1.5rem; 
+    font-family: "Roboto", sans-serif;
+    color: #f1f5f9; 
+    margin: 0rem; 
+
+    padding-top: 0.4rem; 
+}
+
+p {
+    font-size: 0.8rem; 
+    font-family: "Roboto", sans-serif;
+    color: #fbe6cc; 
+    line-height: 1.2rem; 
+    margin: 0rem; 
+
+    padding-top: 0.4rem; 
+    padding-bottom: 0.4rem; 
+}
+
+.room-management {
+    display: flex; 
+    flex-direction: row; 
+    gap: 0.4rem;
+    margin-top: 0.4rem;
+}
+
+.room-management button {
+    flex: 1; 
+    padding: 0.4rem; 
+    font-size: 0.8rem; 
+    font-family: "Roboto", sans-serif;
+    color: black; 
+    background-color: #fffbea; 
+    border: none; 
+    border-radius: 0.2rem; 
+    cursor: pointer; 
+}
+
+.room-management input {
+    flex: 1; 
+    padding: 0.4rem; 
+    font-size: 0.8rem; 
+    font-family: "Roboto", sans-serif;
+    color: black; 
+    background-color: #fffbea; 
+    border: none; 
+    border-radius: 0.2rem;
+}
+
+.chat-container {
+    margin-top: 1.5rem; 
+
+    height: 10rem; 
+    background-color: #fffbea; 
+    border-radius: 0.2rem; 
+    overflow: auto;
+}
+
+.chat-message {
+    display: flex; 
+    flex-direction: column; 
+    gap: 0.2rem; 
+    margin: 0.4rem; 
+    border-bottom: 1px solid black; 
+}
+
+.chat-message-header {
+    display: flex; 
+    flex-direction: row; 
+    gap: 2rem; 
+}
+
+.chat-message-header p {
+    font-size: 0.8rem; 
+    font-family: "Roboto", sans-serif;
+    color: black; 
+    font-weight: bold; 
+    padding-top: 0.2rem; 
+    padding-bottom: 0.0rem; 
+}
+
+.chat-message-content p {
+    font-size: 0.8rem; 
+    margin-top: -0.2rem;
+    font-family: "Roboto", sans-serif;
+    color: black;
+    padding-top: 0.0rem; 
+    padding-bottom: 0.2rem; 
+}
+
+.chat-input {
+    display: flex; 
+    flex-direction: row; 
+    gap: 0.4rem; 
+
+    margin-top: 0.6rem; 
+}
+
+.chat-input input {
+    background-color: #fffbea; 
+    color: black; 
+    border: none; 
+    border-radius: 0.2rem; 
+    width: 100%; 
+}
+
+.chat-input button {
+    flex: 1; 
+    padding: 0.4rem; 
+    font-size: 0.8rem; 
+    font-family: "Roboto", sans-serif;
+    color: black; 
+    background-color: #fffbea; 
+    border: none; 
+    border-radius: 0.2rem;
+}

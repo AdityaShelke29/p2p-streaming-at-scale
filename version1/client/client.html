@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>P2P Video Streaming: Proof of Concept V1</title>
+        <link rel="stylesheet" href="client.css">
+    </head>
+
+    <body class = "main">
+
+        <h1 class = "title">Version 1: Proof of Concept</h1>
+        <hr></hr>
+        <h2 class = "subtitle">P2P Video Streaming</h2>
+
+        <p>This is an incredibly simple proof of concept for P2P video streaming. 
+            This current version supports joining rooms of up to two people each, 
+            chatting in those rooms, and video calling in those rooms, all in a 
+            P2P manner. A central server is present in order to enable signaling 
+            for the establishment of a WebRTC connection. In addition, it is 
+            present to act as a TURN server if clients are behind symmetric NAT.
+            Rooms are deleted once both members leave. </p>
+        
+        <div class = "room-management">
+            <input type="text" id="roomCode" placeholder="Enter Room Code">
+            <button id="roomManagementButton">Create / Join Room</button>
+        </div>
+
+        <div class = "chat-container">
+
+            <div id = "chatMessage" class = "chat-message">
+                <div class = "chat-message-header">
+                    <p>Bot</p>
+                    <p>00:00:00 PM</p>
+                </div>
+                <div class = "chat-message-content">
+                    <p>No messages yet! Be the first to speak.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class = "chat-input">
+            <input type="text" id="chatInput" placeholder="Type a message...">
+            <button id="sendChatButton">Send</button>
+        </div>
+    </body>
+
+    <script src="client.js"></script>
+</html>
